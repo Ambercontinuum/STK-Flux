@@ -53,7 +53,7 @@ The kernel routes automatically. The operator packet tells you exactly what each
 ```
 stk-flux/
 ├── README.md               ← You are here
-├── LICENSE                 ← CC BY 4.0
+├── LICENSE.md                 ← CC BY 4.0
 ├── PROVENANCE.md           ← Authorship model and coupling attribution
 ├── CONTRIBUTING.md         ← Entry points by domain
 ├── src/
