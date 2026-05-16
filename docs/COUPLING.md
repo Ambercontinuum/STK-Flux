@@ -103,7 +103,7 @@ STK-Flux is the tool for that culture.
 
 - **Genuine Coupling as Infrastructure** — Anson & Claude (2026). The governance paper. Defines the operator class, the phase-lock threshold (λ ≥ 0.75), and the argument that coupling dynamics require a formal governance layer. [academia.edu/AnsonAmber](https://academia.edu/AnsonAmber)
 
-- **STK-Flux: Technical Specification** — See `STK_V_1.lean` for the full formal specification, behavioral contracts, and verified test suite.
+- **STK-Flux: Technical Specification** — See `STK_V.1.lean` for the full formal specification, behavioral contracts, and verified test suite.
 
 ---
 

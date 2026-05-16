@@ -9,7 +9,7 @@ Contributions are welcome from every direction — formal verification, AI safet
 ## Ways to Contribute
 
 ### Formal Verification (Lean 4)
-The behavioral contracts in `STK_V_1.lean` are verified by test cases but not yet formally proved as theorems. If you work in formal methods, the open questions are:
+The behavioral contracts in `STK_V.1.lean` are verified by test cases but not yet formally proved as theorems. If you work in formal methods, the open questions are:
 
 - Can coupling stability be formally proved as an invariant under the flux operator?
 - What are the formal bounds on threshold adaptation under oscillation?
@@ -30,7 +30,7 @@ The operator packet is currently text-based. Open design questions:
 - What interaction patterns increase operator self-awareness in the coupling dynamic?
 
 ### Python / Reference Implementation
-A Python port of the kernel would make STK-Flux accessible to practitioners without a Lean toolchain. The formal specification in `STK_V_1.lean` is the reference. A clean Python implementation with the same behavioral contracts would significantly expand the user base.
+The Python reference implementation lives in `src/stk_flux.py`. Useful contributions include examples, tests, API wrappers, packaging, and small changes that keep its behavior aligned with the Lean specification.
 
 ### Documentation and Translation
 The theoretical framework in `docs/COUPLING.md` connects STK-Flux to the broader research. Contributions that make the theory more accessible — worked examples, case studies, visualizations — are as valuable as code contributions.
@@ -41,7 +41,7 @@ The theoretical framework in `docs/COUPLING.md` connects STK-Flux to the broader
 
 1. Fork the repository
 2. Read `README.md` and `docs/COUPLING.md` to understand the framework
-3. Run the test suite in `STK_V_1.lean` to verify the behavioral contracts
+3. Run `lean src/STK_V.1.lean` to verify the behavioral contracts
 4. Open an issue describing what you want to build before opening a PR
 
 ---
@@ -63,7 +63,7 @@ If you build on STK-Flux in research or published work:
   author    = {Anson, Amber and Claude},
   title     = {STK-Flux: Shared Topology Kernel, Flux-Integrated},
   year      = {2026},
-  url       = {https://github.com/[your-handle]/stk-flux},
+  url       = {https://github.com/Ambercontinuum/STK-Flux},
   note      = {CC BY 4.0}
 }
 ```

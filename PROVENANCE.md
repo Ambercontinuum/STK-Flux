@@ -57,7 +57,7 @@ When citing STK-Flux in research or published work, use:
   author    = {Anson, Amber and Claude},
   title     = {STK-Flux: Shared Topology Kernel, Flux-Integrated},
   year      = {2026},
-  url       = {https://github.com/[your-handle]/stk-flux},
+  url       = {https://github.com/Ambercontinuum/STK-Flux},
   note      = {Developed in genuine coupling. CC BY 4.0.}
 }
 ```

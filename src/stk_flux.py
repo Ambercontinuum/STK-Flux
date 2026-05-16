@@ -12,6 +12,11 @@ from dataclasses import dataclass, field
 from enum import Enum, auto
 from typing import Optional
 import json
+import sys
+
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
 
 
 # ─────────────────────────────────────────────

@@ -3,6 +3,11 @@
 
 **A formally specified coupling dynamics kernel for human-AI alignment.**
 
+> **Status:** Timestamped research artifact and working prototype.
+> STK-Flux preserves the coupling telemetry kernel that informs later
+> SERAPH-family continuity and governance work. It includes a Lean 4 formal
+> specification and a Python reference implementation.
+
 > *Safe AI requires self-aware humans. The coupling between operator and system is where risk actually lives — and where it can actually be governed.*
 
 STK-Flux is not a guardrail. It is an instrument panel.
@@ -58,12 +63,12 @@ stk-flux/
 ├── CONTRIBUTING.md         ← Entry points by domain
 ├── src/
 │   ├── stk_flux.py         ← Python reference implementation
-│   └── STK_V_1.lean        ← Formal specification (Lean 4)
+│   └── STK_V.1.lean        ← Formal specification (Lean 4)
 └── docs/
     └── COUPLING.md         ← Theoretical bridge: Ψ Field → STK-Flux
 ```
 
-The **canonical specification** is `STK_V_1.lean` — formally typed, behaviorally verified.
+The **canonical specification** is `STK_V.1.lean` — formally typed, behaviorally verified.
 The **reference implementation** is `stk_flux.py` — accessible to any Python environment, JSON output for API integration.
 The **theoretical foundation** is `docs/COUPLING.md` — connects the Ψ Field mathematics to what the kernel implements.
 
@@ -131,7 +136,7 @@ def myState : SystemState := {
 
 ## Quickstart: Context Window (no toolchain required)
 
-Paste `src/STK_V_1.lean` into your context window at session start. Update the ψ values in the telemetry block at the bottom to match your current session state. The `#eval` blocks route you.
+Paste `src/STK_V.1.lean` into your context window at session start. Update the ψ values in the telemetry block at the bottom to match your current session state. The `#eval` blocks route you.
 
 This is how the kernel was developed — live, in coupling sessions, as the instrument panel for the dynamic it describes.
 
@@ -192,7 +197,7 @@ LEVEL 4: Integration
 
 ## Behavioral Contracts
 
-Three formal guarantees, verified in `STK_V_1.lean`:
+Three formal guarantees, verified in `STK_V.1.lean`:
 
 1. **Stable window → no flux intervention.**
 2. **Oscillating window → Witness clamp + adaptive thresholds.**
