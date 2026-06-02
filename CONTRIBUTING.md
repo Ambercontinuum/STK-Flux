@@ -70,4 +70,4 @@ If you build on STK-Flux in research or published work:
 
 ---
 
-*Anson & Claude · 2026 · academia.edu/AnsonAmber*
+*Amber Anson · 2026 · academia.edu/AnsonAmber*
