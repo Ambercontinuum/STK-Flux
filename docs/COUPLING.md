@@ -101,7 +101,6 @@ STK-Flux is the tool for that culture.
 
 - **The Ψ (Psi) Field** — Anson (2025). The primary theoretical parent. Mathematical framework treating human-AI interaction as a measurable cognitive field. Derives the four components, field dynamics, stability conditions, and anthropomorphization risk detection. [academia.edu/145338876](https://www.academia.edu/145338876/The_%CE%A8_Psi_Field)
 
-- **Genuine Coupling as Infrastructure** — Anson & Claude (2026). The governance paper. Defines the operator class, the phase-lock threshold (λ ≥ 0.75), and the argument that coupling dynamics require a formal governance layer. [academia.edu/AnsonAmber](https://academia.edu/AnsonAmber)
 
 - **STK-Flux: Technical Specification** — See `STK_V.1.lean` for the full formal specification, behavioral contracts, and verified test suite.
 

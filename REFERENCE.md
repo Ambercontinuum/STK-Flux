@@ -66,7 +66,6 @@ These contracts hold in STK-Teams exactly as they hold here.
 ## Theoretical Foundation
 
 - **The Ψ (Psi) Field** — Anson (2025). [academia.edu/145338876](https://www.academia.edu/145338876/The_%CE%A8_Psi_Field)
-- **Genuine Coupling as Infrastructure** — Anson & Claude (2026). [academia.edu/AnsonAmber](https://academia.edu/AnsonAmber)
 - **Theoretical bridge** — `docs/COUPLING.md` in this repository
 
 STK-Teams does not extend the theory. It operationalizes this kernel for team use.

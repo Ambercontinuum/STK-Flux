@@ -83,7 +83,6 @@ All work in this research program was produced through the same coupling model d
 ## Primary Sources
 
 - **The Ψ (Psi) Field** — Anson (2025). The mathematical foundation for the four components implemented in STK-Flux. [academia.edu/145338876](https://www.academia.edu/145338876/The_%CE%A8_Psi_Field)
-- **Genuine Coupling as Infrastructure** — Anson & Claude (2026). The governance argument that STK-Flux implements. [academia.edu/AnsonAmber](https://academia.edu/AnsonAmber)
 
 ---
 
