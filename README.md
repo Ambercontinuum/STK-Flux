@@ -58,7 +58,8 @@ The kernel routes automatically. The operator packet tells you exactly what each
 ```
 stk-flux/
 ├── README.md               ← You are here
-├── LICENSE.md                 ← CC BY 4.0
+├── LICENSE.md              ← CC BY 4.0
+├── REFERENCE.md            ← Relationship to STK-Teams and extensions
 ├── PROVENANCE.md           ← Authorship model and coupling attribution
 ├── CONTRIBUTING.md         ← Entry points by domain
 ├── src/
@@ -225,6 +226,20 @@ See `PROVENANCE.md` for the full authorship model.
 
 ---
 
+## Extensions
+
+**STK-Teams** — integration layer for multi-contributor development team sessions.
+
+Imports `stk_flux.py` directly. Adds contributor tagging, commit_extra decay, a boolean proxy evaluator, and a handoff formatter. Drop-in compatible: `run()` is re-exported unchanged.
+
+```
+[STK:TRANSLATE | ψ=(λ85,κ72,θ68,ε38) | @alice | EXIT: drift=True]
+```
+
+→ https://github.com/Ambercontinuum/STK-Teams · See `REFERENCE.md` for the relationship.
+
+---
+
 ## Contributing
 
 See `CONTRIBUTING.md`. Entry points for formal verification, AI safety integration, Python extension, HCI, and daily practitioners.
@@ -233,7 +248,7 @@ See `CONTRIBUTING.md`. Entry points for formal verification, AI safety integrati
 
 ## License
 
-CC BY 4.0 — Amber Anson & Claude (Anthropic), 2026.
+CC BY 4.0 — Amber Anson, 2026. Developed with Claude (Anthropic) as collaborative substrate.
 
 ---
 
@@ -241,10 +256,10 @@ CC BY 4.0 — Amber Anson & Claude (Anthropic), 2026.
 
 ```bibtex
 @software{stk_flux_2026,
-  author = {Anson, Amber and Claude},
+  author = {Anson, Amber},
   title  = {STK-Flux: Shared Topology Kernel, Flux-Integrated},
   year   = {2026},
-  note   = {Developed in genuine coupling. CC BY 4.0.}
+  note   = {Developed with Claude (Anthropic) as collaborative substrate. CC BY 4.0.}
 }
 ```
 

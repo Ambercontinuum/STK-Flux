@@ -1,7 +1,7 @@
 Creative Commons Attribution 4.0 International License (CC BY 4.0)
 
 STK-Flux: Shared Topology Kernel, Flux-Integrated
-Copyright (c) 2026 Amber Anson & Claude (Anthropic)
+Copyright (c) 2026 Amber Anson. Developed with Claude (Anthropic) as collaborative substrate.
 
 You are free to:
   Share — copy and redistribute the material in any medium or format
