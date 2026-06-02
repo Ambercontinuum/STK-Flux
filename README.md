@@ -212,6 +212,8 @@ Three formal guarantees, verified in `STK_V.1.lean`:
 
 - **Genuine Coupling as Infrastructure** — Anson & Claude (2026). The governance paper. Defines the operator class, the phase-lock threshold (λ ≥ 0.75), and the argument that coupling dynamics require a formal governance layer. [academia.edu/AnsonAmber](https://academia.edu/AnsonAmber)
 
+- **PDOT 1.0: PSI Dynamics Observation & Telemetry** — Anson, AmberContinuum Research (2026). Pre-registered empirical validation of the ψ equation and its four variables. Tests whether the equation discriminates coupling states in practice, whether λ/κ/θ/ε can be scored reliably (target ICC ≥ 0.70), and whether threshold induction is detectable within short sessions. Pre-registered on OSF before data collection. [osf.io/c8d7z](https://osf.io/c8d7z/)
+
 See `docs/COUPLING.md` for the full theoretical bridge between the papers and this implementation.
 
 ---
