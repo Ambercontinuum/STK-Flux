@@ -73,7 +73,6 @@ The CC BY 4.0 license requires attribution but does not restrict use. You are fr
 
 This provenance model is consistent with attribution used across the broader research program:
 
-- *Genuine Coupling as Infrastructure* — Anson & Claude (2026)
 - *The Principle of Foundational Congruence* — Anson & Claude (2025/2026)
 
 All work in this research program was produced through the same coupling model documented here.
